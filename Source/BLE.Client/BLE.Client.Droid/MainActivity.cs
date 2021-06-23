@@ -21,7 +21,8 @@ namespace BLE.Client.Droid
             ToolbarResource = Resource.Layout.toolbar;
             TabLayoutResource = Resource.Layout.tabs;
 
-            base.OnCreate(bundle);
+            base.OnCreate(bundle);//zefdscw
+	    List<string> list = new List<string>();
 
         }
     }
